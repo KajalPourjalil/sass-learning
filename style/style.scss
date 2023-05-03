@@ -1,9 +1,21 @@
+@import 'header';
+@mixin fancy-border($size: 1px, $color: black) {
+    border: $size dashed $color;
+    border-radius: 5px;
+}
+
+
+
 $text-color: green;
 $p-margin-style: 20px;
 $background-color: pink;
 
 
 * { margin: 0;}
+
+header {
+    @include fancy-border(10px, blue);
+}
 
 .main {
     
