@@ -27,11 +27,16 @@ header {
 }
 
 .main p {
-  color: green;
+  color: pink;
+  font-size: 20px;
 }
 .main article {
   background-color: yellow;
 }
 .main article p {
   color: blue;
+}
+
+button {
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */

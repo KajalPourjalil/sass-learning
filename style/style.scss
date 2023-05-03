@@ -22,6 +22,7 @@
 $text-color: green;
 $p-margin-style: 20px;
 $background-color: pink;
+$base-size: 20px;
 
 
 * { margin: 0;}
@@ -33,7 +34,9 @@ header {
 .main {
     
     p {
-        color: $text-color;
+        color: $background-color;
+        font-size: $base-size;
+        // background-color: $background-color;
     }
 
     article {
@@ -45,4 +48,9 @@ header {
     }
 
 
+}
+
+button {
+    font-size: $base-size * 2;
+    // background-color: $background-color - 200px;
 }
