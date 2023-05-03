@@ -4,7 +4,20 @@
     border-radius: 5px;
 }
 
+.message {
+    font-size:20px;
+    border: 1px solid black;
+}
 
+.warning{
+    @extend .message;
+    color: orange;
+}
+
+.error {
+    @extend .message;
+    color: red;
+}
 
 $text-color: green;
 $p-margin-style: 20px;

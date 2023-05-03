@@ -4,6 +4,19 @@ header {
   font-style: italic;
 }
 
+.message, .error, .warning {
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
+
 * {
   margin: 0;
 }
