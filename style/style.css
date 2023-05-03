@@ -1,15 +1,13 @@
-html {
-  color: green;
+* {
+  margin: 0;
 }
 
-.header {
+.main p {
   color: green;
 }
-
-.footer {
-  color: green;
+.main article {
+  background-color: yellow;
 }
-
-p {
-  margin: 20px;
+.main article p {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */

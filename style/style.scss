@@ -1,20 +1,23 @@
 $text-color: green;
 $p-margin-style: 20px;
+$background-color: pink;
 
 
-html {
-    color: $text-color;
-}
+* { margin: 0;}
 
-.header {
-    color: $text-color;
+.main {
+    
+    p {
+        color: $text-color;
+    }
 
-}
+    article {
+        background-color: yellow;
 
-.footer {
-    color: $text-color;
-}
+        p{
+            color: blue;
+        }
+    }
 
-p {
-    margin: $p-margin-style;
+
 }
