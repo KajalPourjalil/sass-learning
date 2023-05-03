@@ -1,12 +1,20 @@
+$text-color: green;
+$p-margin-style: 20px;
+
+
 html {
-    color: red;
+    color: $text-color;
 }
 
 .header {
-    color: blue;
+    color: $text-color;
 
 }
 
 .footer {
-    color: blue
+    color: $text-color;
+}
+
+p {
+    margin: $p-margin-style;
 }

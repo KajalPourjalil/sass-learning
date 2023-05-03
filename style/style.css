@@ -1,11 +1,15 @@
 html {
-  color: red;
+  color: green;
 }
 
 .header {
-  color: blue;
+  color: green;
 }
 
 .footer {
-  color: blue;
+  color: green;
+}
+
+p {
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
